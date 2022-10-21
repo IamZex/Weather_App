@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <script src="./script.js" defer></script>
+    
+    <div class="weatherTitle"><h1>Weather Watch Mikethousand!</h1> </div>
+    
+    <div>
+
+        <form onsubmit="return false" name="cityLookup" id="form"> 
+        
+            <div class="weatherTitle">What's your city? 
+
+            </div>
+            
+            <div></div>
+            <input  name="cityName" type="text" id="cityName" required value="Omaha">
+
+            <input id="city" type="button" value="Hello There!" >
+        
+        </form>
+    </div>
+    <div class="content">
+        
+        <div class="weather"> 
+            
+            <div class="weatherTitle">
+                Temp
+            </div> 
+            
+            <div class="weatherInfo" id="temp">
+
+            </div>
+            
+        </div>
+        
+        <div class="weather" > 
+
+            <div class="weatherTitle"> 
+                What's it like out there? 
+            </div>
+
+            <div class="weatherInfo" id="description">
+
+            </div> 
+            
+        </div>
+        
+        <div class="weather" > 
+            
+            <div class="weatherTitle">
+                Sunrise
+            </div>
+            
+            <div class="weatherInfo" id="sunrise"></div>
+            
+        </div>
+        
+        <div class="weather">
+             
+            <div class="weatherTitle"> 
+                Sunset
+            </div>
+            
+            <div class="weatherInfo" id="sunset">
+
+            </div>
+
+        </div>
+
+    </div>
+        
+    
+</body>
+</html>
